@@ -18,6 +18,6 @@ function submit(){
     Div.innerText=val+"="+result;
 
 
-    historique.prepend(Div); // ajoute au début du div
+    historique.append(Div); // ajoute en fin 
     contenu.innerText=result;
 }
