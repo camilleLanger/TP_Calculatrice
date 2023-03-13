@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Calculatrice</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="calculatrice.css">
+        
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="historique" id="historique">
+
+            </div>
+
+
+
+            <div class="calcul" id="calcul">
+
+
+            </div>
+
+            <div class="grid_container">
+                <button onclick="afficher(7)">7</button>
+                <button onclick="afficher(8)">8</button>
+                <button onclick="afficher(9)">9</button>
+                <button onclick="afficher('/')">/</button>
+                <div></div>
+                <button onclick="cancel()">C</button>
+                <button onclick="afficher(4)">4</button>
+                <button onclick="afficher(5)">5</button>
+                <button onclick="afficher(6)">6</button>
+                <button onclick="afficher('*')">x</button>
+                <button onclick="afficher('(')">(</button>
+                <button onclick="afficher(')')">)</button>
+                <button onclick="afficher(1)">1</button>
+                <button onclick="afficher(2)">2</button>
+                <button onclick="afficher(3)">3</button>
+                <button onclick="afficher('-')">-</button>
+                <div></div>
+                <div></div>
+                <button onclick="afficher(0)">0</button>
+                <button onclick="afficher(',')">,</button>
+                <div></div>
+                <button onclick="afficher('+')">+</button>
+                <button onclick="submit()" class="egal">=</button>
+
+
+            </div>
+        
+
+
+
+        </div>
+        
+
+        <script src="calculatrice.js"></script>
+    </body>
+</html>
